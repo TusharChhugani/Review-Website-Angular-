@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+
+
+* {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.intro {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.movie-card {
+  background: #34495e;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 315px;
+  margin: 2em;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.movie-header {
+  padding: 0;
+  margin: 0;
+  height: 267px;
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.manOfSteel {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/81PLQoqt2SL.jpg");
+  background-size: cover;
+}
+
+.herapheri {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/81rwmffBgVL._SX300_.jpg");
+  background-size: cover;
+}
+
+.babyDriver {
+  background: url("https://m.media-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_.jpg");
+  background-size: cover;
+}
+
+.theDarkTower {
+  background: url("http://cdn.collider.com/wp-content/uploads/2017/03/the-dark-tower-poster.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.bladeRunner2049 {
+  background: url("http://cdn.collider.com/wp-content/uploads/2017/05/blade-runner-2049-poster-ryan-gosling.jpeg");
+  background-size: cover;
+  background-position: 100% 80%;
+}
+
+.friends {
+  background: url("https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg");
+  background-size: cover;
+}
+
+.got {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/91L8bmPKClL._RI_.jpg");
+  background-size: cover;
+}
+
+.bb {
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/2cd7d911377377.560f6bdfb0dab.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.lucifer {
+  background: url("https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_.jpg");
+  background-size: cover;
+  background-position: 100% 80%;
+}
+
+.demonslayer {
+  background: url("https://upload.wikimedia.org/wikipedia/en/2/21/Kimetsu_no_Yaiba_Mugen_Ressha_Hen_Poster.jpg");
+  background-size: cover;
+}
+
+.slime {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/81lAIPP2XkL.jpg");
+  background-size: cover;
+}
+
+.myhero {
+  background: url("https://upload.wikimedia.org/wikipedia/en/1/1d/My_Hero_Academia_-_Two_Heroes_poster.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.naruto {
+  background: url("https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg");
+  background-size: cover;
+  background-position: 100% 80%;
+}
+
+.minecraft {
+  background: url("https://media.playstation.com/is/image/SCEA/minecraft-starter-collection-squareboxart-01-ps4-11dec19-en-us?$native_nt$");
+  background-size: cover;
+}
+
+.fortnite {
+  background: url("https://i.ytimg.com/vi/3KgmY5NrEzU/maxresdefault.jpg");
+  background-size: cover;
+}
+
+.cod {
+  background: url("https://cdn.vox-cdn.com/thumbor/26z5pJ-i0VEO-xcvIfZiFgt06oM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19862297/CoD_MW2_Remastered.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.fallguy {
+  background: url("https://m.media-amazon.com/images/M/MV5BZWI0ZWJlOWYtZTNiMS00NTA5LWFmYmQtMGY1MDQ5YWRhZDljXkEyXkFqcGdeQXVyNDIwOTkyNjM@._V1_UY268_CR9,0,182,268_AL_.jpg");
+  background-size: cover;
+  background-position: 100% 80%;
+}
+
+
+
+
+
+.movie-card:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0px 10px 25px red;
+}
+
+.movie-content {
+  padding: 18px 18px 24px 18px;
+  margin: 0;
+}
+
+.movie-content-header, .movie-info {
+  display: table;
+  width: 100%;
+}
+
+.movie-title {
+  font-size: 24px;
+  margin: 0;
+  display: table-cell;
+}
+
+  .movie-title:hover {
+    color: red;
+  }
+
+
+.logo {
+  width: 90px;
+  height: 45px;
+  background: url("https://pbs.twimg.com/media/EjMmjaoUwAQDoqd?format=png&name=small") no-repeat;
+  background-size: contain;
+  display: table-cell;
+  float: right;
+  position: relative;
+  margin-top: -10px;
+}
+
+#raju:hover {
+  color: red;
+}
+
+.movie-info {
+  margin-top: 1em;
+  color: #ffcccb;
+}
+
+.info-section {
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+  .info-section:first-of-type {
+    text-align: left;
+  }
+
+  .info-section:last-of-type {
+    text-align: right;
+  }
+
+  .info-section label {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+  }
+
+  .info-section span {
+    font-weight: 700;
+    font-size: 11px;
+  }
+
+@media screen and (max-width: 500px) {
+  .movie-card {
+    width: 95%;
+    max-width: 95%;
+    margin: 1em;
+    display: block;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+.site-footer {
+  background-color: #34495e;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  
+}
+
+#social-wrapper {
+  text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+  text-align: center;
+  
+}
+
+.social-wrapper_team {
+  text-align: right;
+  right: 10px;
+}
+
+  .social-wrapper ul li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon {
+  margin-top: 10px;
+  opacity: .6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  font-size: xx-large;
+
+}
+
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+    
+    color: red;
+    font-size: 50px;
+    transition: 1s all ease;
+  }
+
+.footer-nav p {
+  text-align: center;
+}
+
+#team{
+  color: white; 
+  font-size: xx-large;
+  margin-top: .625em;
+  margin-left: 1000px;
+margin-right: 100px; 
+
+}
+
+#team:hover{
+  color: red;
+  font-size: 50px;
+  transition: 1s;
+}

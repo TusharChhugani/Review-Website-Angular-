@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: black;
+    font-family: 'Arimo', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #010b26;
+
+   
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
